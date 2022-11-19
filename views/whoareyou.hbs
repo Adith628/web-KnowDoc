@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who are you?</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <style>
+        
+        .who{
+            font-size: 80px;
+            width: 630px;
+            align-items: center;
+            margin:30px auto;
+            justify-content: center;
+            font-family: 'Playfair Display', sans-serif;
+            
+        }
+        #button1{
+          text-decoration: none;
+        }
+        #button2{
+          text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+<h1 class="who">WHO ARE YOU?</h1>
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="people-walking-sitting-hospital-building-city-clinic-glass-exterior-flat-vector-illustration-medical-help-emergency-architecture-healthcare-concept_74855-10130.jpg" >
+        </div>
+        <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Hospital</h2>
+        <p class="leading-relaxed text-base">Click here if you operate on behalf of a hospital</p>
+        <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"><a href="/login" id="button1">Hospital Server</a></button>
+      </div>
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/videoblocks-doctor-with-patient-characters-animation-4k-video-animated_hbx0tgo8l_thumbnail-1080_01.png">
+        </div>
+        <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Patient</h2>
+        <p class="leading-relaxed text-base">Click here if you want a consultation, or are inquiring about the consultation timing</p>
+        <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"><a href="/Home" id='button2'>Patient Server</a></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

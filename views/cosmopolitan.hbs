@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmopolitan Hospitals Pvt Ltd.</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        body{
+            background: -webkit-gradient(linear, left top, left bottom, from(rgb(30, 0, 78)), to(#000000)) fixed;
+        }
+        .bg{
+            background-color: white;
+            background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(#3d3d3d)) fixed;
+        }
+        .location{
+            height: 3%;
+            width: 3%;
+            margin: 3px;
+            transform: translate(2px,-60px);
+            display: inline-block;
+            border-radius: 50%;
+        }
+        .location1{
+            display: inline-block;
+            font-size: 100%;
+            font-family: 'Century Gothic' , 'Playfair Display' , 'Times New Roman', Times, serif;
+            transform: translate(2px,-60px);
+        }
+        .choose{
+            display: inline-block;
+            padding: 50px 60px;
+            font-size: 60px;
+            font-family: 'Century Gothic' , 'Playfair Display' , 'Times New Roman', Times, serif;
+            text-shadow: 3px 3px rgb(170, 170, 170);
+            font-weight: bold;
+            transform: translate(30px , 0px);
+        }
+        .card{
+            display: inline-block;
+            margin: 40px;
+            padding: 20px;
+            font-size: 20px;
+            right: -200px;
+            border-radius: 5px ;
+            box-shadow: 8px 8px rgb(128, 128, 128);
+            transition:   ease-in-out 0.2s;
+            height: 320px;
+        }
+        #first{
+            height : 333px;
+        }
+        #second{
+            height:333px;
+            bottom: 15px;
+        }
+        #third
+        {
+            bottom: 5px;
+            height: 328px;
+        }
+        .btn-primary {
+            border-radius: 30px;
+            padding: 5px 30px;
+            transform: translate(60px,0px);
+        }
+        .card:hover{
+            transform: scale(1.05);
+        }
+        #cardnamesecond{
+            bottom: -10px;
+            transform: translate(4px , 10px);
+            /* padding: 5px 0px;     */
+        }
+        #cardnamethird{
+            transform: translate(3px , 0px);
+        }
+        #third .card-body .btn{
+        }
+        .card-text{
+            font-family:  'Times New Roman', Times, serif;
+            font-size: 40px;
+            transform: translate(20px,0px);
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class='bg'>
+        <img src="istockphoto-1261917621-612x612.jpg" class="location" alt="">
+    <h1 class="location1">Thiruvananthapuram</h1>
+    <h1 class="choose">Cosmopolitan Hospitals Pvt Ltd.</h1>
+    </div>
+    <br>
+    <div class="card" id="first" style="width: 18rem;">
+        <img src="neurology.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" id="cardnamefirst">Neurology</p>
+          <a href="#" class="btn btn-primary">Go </a>
+        </div>
+      </div>
+      <div class="card" id="second" style="width: 18rem;">
+        <img src="cardiology.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" id="cardnamesecond">Cardiology</p>
+          <a href="#" class="btn btn-primary">Go </a>
+        </div>
+      </div>
+      <div class="card" id="third" style="width: 18rem;">
+        <img src="nephrology.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" id="cardnamethird">Nephrology</p>
+          <a href="#" class="btn btn-primary">Go </a>
+        </div>
+      </div>
+</body>
+</html>
